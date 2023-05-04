@@ -36,7 +36,3 @@ vim.keymap.set("n", "K", "N")
 vim.keymap.set("n", "u", "i")
 vim.keymap.set("n", "U", "I")
 
-
-
-
-
