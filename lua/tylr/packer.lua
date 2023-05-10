@@ -41,6 +41,6 @@ return require('packer').startup(function(use)
   }
 }
 use('voldikss/vim-floaterm')
-use('t-taormina/colemak-neovim')
+use('t-taormina/colemak-neovim') -- my plug in!!!
 
 end)
