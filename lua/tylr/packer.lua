@@ -40,7 +40,10 @@ return require('packer').startup(function(use)
 	  {'L3MON4D3/LuaSnip'},     -- Required
   }
 }
-use('voldikss/vim-floaterm')
+--use('voldikss/vim-floaterm')
+use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+  require("toggleterm").setup()
+end}
 use('t-taormina/colemak-neovim')
 
 end)
